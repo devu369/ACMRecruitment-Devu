@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+
+<title>Structure And Adapt</title> 
+
+
+<h1>Two-Column Layout</h1>
+
+<style>
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+.column {
+padding: 10px;
+}
+
+.column {
+padding: 10px;
+}
+
+@media (max-width: 500px) {
+body {
+ background-color: #0000ff; 
+ }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="column">
+<h2>Column 1</h2> 
+<p>content</p>
+</div>
+<div class="column">
+<h2>Column 2</h2> 
+<p>content</p>
+</div>
+
+</body>
+</html>
