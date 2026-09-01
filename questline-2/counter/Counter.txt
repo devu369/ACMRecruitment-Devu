@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bring It To Life</title>
+</head>
+<body>
+
+<h1>Counter Webpage</h1>
+
+<style>
+body {
+text-align: center;
+background-color: lightgray;
+}
+
+h1 {
+color: violet;
+}
+</style>
+
+<p id="counter">0</p>
+
+<button onclick="document.getElementById('counter').innerHTML++">
+    Increment
+</button>
+
+<button onclick="document.getElementById('counter').innerHTML--">
+    Decrement
+</button>
+
+<button onclick="document.getElementById('counter').innerHTML=0">
+    Reset
+</button>
+
+</body>
+</html>
