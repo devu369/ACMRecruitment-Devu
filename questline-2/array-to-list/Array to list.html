@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+
+<title>Name List</title> 
+
+<style>
+.container {
+background: white;
+}
+
+ul {
+padding-left: 20px;
+}
+
+li {
+margin: 10px;
+color: #555;
+}
+
+</style>
+
+<body>
+<div class="container">
+<h2>Names</h2>
+<ul id="names-container"></ul>
+</div>
+
+<script>
+const names = ["Alan","Drake","Natasha","Peter"];
+
+const container = document.getElementById('names-container');
+names.forEach(name => {
+const li = document.createElement('li');
+li.textContent = name;
+container.appendChild(li);
+});
+</script>
+
+</body>
+</html>
